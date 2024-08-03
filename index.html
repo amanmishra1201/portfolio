@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Aman Mishra</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/36f899b752.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/image_logo.png" class="image_logo" alt="Logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Experiences">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#skills">Skills Summary</a></li>
+                <li><a href="#honor">Honors and Awards</a></li>
+                <li><a href="#certificate">Certification</a></li>
+                <li><a href="#organisation">Organisations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Final Year Student at Vellore Institute of Technology</p>
+            <h1>Hi, I'm <span>Aman Mishra</span></h1>
+        </div>
+    </div>
+</div>
+<!------------------------about---------------->
+<div id="about">
+        <div class="container">
+                <div class="row">
+                        <div class="about-col-1">
+                              <img src="images/image_5.png">
+                        </div>
+                        <div class="about-col-2">
+                                <h1 class="sub-title">About Me</h1>
+                                <p>I am a student at Vellore Institute of Technology, studying Electronics and Communication Engineering. 
+                                        I've gained practical experience through internships in IoT and fault detection systems. 
+                                        I enjoy working on projects like smart agriculture and two-way communication systems. 
+                                        My skills include C++, HTML, CSS, MATLAB, and various engineering tools, and 
+                                        I'm passionate about using technology to solve real-world problems.</p>
+                                       
+                                        <div class="tab-titles">
+                                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                                        </div>
+                                        <div class="tab-contents active-tab" id="skills">
+                                                <ul>
+                                                        <li><span>IoT Domain Analyst</span><br>Experienced</li>
+                                                        <li><span>Cloud Practitioner</span><br>Basic</li>
+                                                        <li><span>Coding</span><br>C++, HTML, CSS, Embedded</li>
+                                                </ul>
+                                        </div>
+                                        <div class="tab-contents" id="experience">
+                                                <ul>
+                                                        <li><span>Nov 2023 - Feb 2024</span><br>IoT Intern at AIVOT AI Mumbai</li>
+                                                        <li><span>Aug 2023 - Oct 2023</span><br>IoT Embedded Intern at Apsis Solution Bangalore </li>
+                                                        
+                                                </ul>
+                                        </div>
+                                        <div class="tab-contents" id="education">
+                                                <ul>
+                                                        <li><span>B-Tech in Electronics and Communication Engineering</span><br>Vellore Institute of Technology Vellore Tamil Nadu</li>
+                                                        
+                                                </ul>
+                                        </div>
+                        </div>
+                </div>
+        </div>
+</div>
+
+<!----------------Experience----------->
+<div id="Experiences">
+        <div class="container">
+                <h1 class="sub-title">My Experiences</h1>
+                <div class="Experiences-list">
+                        <div>
+                                <i class="fa-solid fa-code-compare"></i>
+                                <h2>IoT Intern at AIVOT AI Private Limited</h2>
+                                <br>
+                                <p>Project Overview: Proposed Fault Detection System in Transmission Lines.
+                                        <br>Technology Integration: Integrated Advanced Sensors and Communication Modules
+                                        <br>Objectives: Real-Time Fault Detection and Enhanced Infrastructure Reliability</p>
+                                <a href="#">Learn more</a>       
+                        </div>
+                        <div>
+                                <i class="fa-brands fa-codepen"></i>
+                                <h2>IoT Embedded Intern at APSIS Solution Private Limited</h2>
+                                <br>
+                                <p>Two-Way Communication: Established two-way communication using ESP8266.
+                                        <br>OTA Firmware and Communication: Implemented OTA firmware updates, Debugged codes, Set up UART
+                                        connections and configured Bluetooth connection using commands.
+                                        <br>PCB Design and Soldering: Designed PCB layouts and performed soldering.</p>
+                                <a href="#">Learn more</a>       
+                        </div>
+
+                </div>
+        </div>
+</div>
+
+<!----------------projects-------------->
+<div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="Projects-list">
+                <div class="Projects">
+                    <img src="images/image_fault.png" alt="Fault Detection">
+                    <div class="layer">
+                      <h3>Implementation Proposal for Fault Detection System in Transmission Lines:</h3> 
+                      <p>(Work in progress) Implemented
+                        advanced sensors (Magneto Resistive, Gyroscopic, AMR, Optical Fiber, Acoustic, Temperature, Power Quality Analyzers,
+                        Corrosion, Humidity, Lightning Detection Systems) and developed a comprehensive system for real-time fault detection and
+                        proactive maintenance, ensuring enhanced reliability and safety of transmission line infrastructure. Advocated for feasibility
+                        studies, stakeholder consultations, and pilot testing to refine system design and ensure reliability before deployment.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <br>
+                <div class="Projects">
+                    <img src="images/image_ota.png" alt="OTA Update">
+                    <div class="layer">
+                        <h3>OTA (Over the Air) Firmware Update:</h3> 
+                        <p>We implemented over-the-air (OTA) firmware updates for the project, enabling
+                                remote deployment and installation of firmware updates without the need for physical access to the devices. This approach
+                                streamlined the update process, ensuring devices always operated on the latest firmware version.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                      </div>
+                </div>
+                <br>
+                <div class="Projects">
+                        <img src="images/image_twoway.jpg" alt="Two-Way Communication">
+                        <div class="layer">
+                                <h3>Two-Way Communication System with ESP8266:</h3> 
+                                <p>Designed and implemented a robust two-way communication system
+                                        using ESP8266 modules, establishing one system as a server and the other as a client. This setup enabled bidirectional
+                                        messaging over WiFi, showcasing reliable connectivity with a range spanning approximately 100-150 meters. Integrated
+                                        protocols ensured efficient data exchange, enhancing operational efficiency and suitability for IoT applications.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                              </div>
+                    </div>
+                    <br>
+                    <div class="Projects">
+                        <img src="images/image_smart.jpg" alt="Smart Agriculture">
+                        <div class="layer">
+                                <h3>Smart Agriculture:</h3> 
+                                <p>Contributed to an IoT initiative focusing on soil moisture monitoring and water flow control using
+                                        sensors. The project featured integrated fire detection functionality and automated water activation, highlighting its dual
+                                        purpose in agricultural management and fire prevention strategies. Tech: C++, Arduino UNO, Tinekercad, Arduino IDE
+                                        (September ’23)</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                              </div>
+                    </div>
+                
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+<!---------------------skills summary------------>
+<div id="skills">
+        <div class="container">
+                <h1 class="sub-title">My Skills</h1>
+                <div class="skills-list">
+                        <div>
+                                <i class="fa-solid fa-code"></i>
+                                <h2>Langugage</h2>
+                                <br>
+                                <p>C++,HTML,CSS</p>
+                                      
+                        </div>
+                        <div>
+                                <i class="fa-solid fa-computer"></i>
+                                <h2>Tools</h2>
+                                <br>
+                                <p>Multisim, OrCAD, Windows, Arduino, LTspice, AWS, NetSim, Kaggle, Google Colab, Visual Studio Code</p>
+                                       
+                        </div>
+                        <div>
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <h2>Soft-Skills</h2>
+                                <br>
+                                <p>Leadership, Event Management, Writing, Time Management</p>
+                                       
+                        </div>
+                        <div>
+                                <i class="fa-solid fa-arrow-right"></i>
+                                <h2>Concept</h2>
+                                <br>
+                                <p>Electrical Circuits, Digital System Design, Numerical Methods, Probability Theory, Electronics, Signals and
+                                        Systems, Electromagnetic Field Theory, Communication Engineering, Introduction to Digital Signal Processing,Digital
+                                        Communications, IoT Domain, Management</p>
+                                       
+                        </div>
+                        
+
+                </div>
+                <a href="#" class="btn">See more</a>
+        </div>
+</div>
+
+<!---------Honor and award-------------->
+<div id="honor">
+        <div class="container">
+                <h1 class="sub-title">Honors & Awards</h1>
+                <div class="honor-list">
+                        <div>
+                                <i class="fa-solid fa-award"></i>
+                                <h2>3rd place in Barter Electronics during Gravitas Technical Fest hosted by VIT - Sept 2023</h2>
+                                       
+                        </div>
+
+                </div>
+                <a href="#" class="btn">See more</a>
+        </div>
+</div>
+<!-------------certificate---------->
+<div id="certificate">
+        <div class="container">
+                <h1 class="sub-title">Extra Curricular Activities</h1>
+                <div class="certificate-list">
+                        <div>
+                                <i class="fa-solid fa-certificate"></i>
+                                <h2>Certifications</h2>
+                                <br>
+                                <p>• Secured a topper distinction in the NPTEL exam on Forest and Their Management - April, 2024<br>
+                                        • Volunteered at Yantra Technical Fest, VIT - June,2023<br>
+                                        • Certificate of Energy Literacy by Energy Swaraj Foundation(HONOR CODE:- ELT23-3-7248) - March, 2023<br>
+                                        • Next Generation Radio Communication Technologies (NGRCT) - Sep, 2022<br>
+                                        • Volunteered at Riviera Cultural Fest, VIT - Sept, 2022<br>
+                                        • Value added Course (IoT-VAC1754) - June, 2022
+                                        
+                                        
+                                </p>
+                                       
+                        </div>
+
+                </div>
+                <a href="#" class="btn">See more</a>
+        </div>
+</div>
+<!-----------organisation-------->
+<div id="organisation">
+        <div class="container">
+                <h1 class="sub-title">Organisations</h1>
+                <div class="certificate-list">
+                        <div>
+                                <i class="fa-solid fa-building-columns"></i>
+                                <h2>Institution of Engineers (India) IE(I) - VIT Vellore</h2>
+                                <p>Student Member (Feb 2023-Present)</p>
+                                       
+                        </div>
+                        
+
+                </div>
+                <a href="#" class="btn">See more</a>
+        </div>
+</div>
+
+<!--------------------contact------------>
+<div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                     <h1 class="sub-title">Contact Me</h1>  
+                     <p><i class="fa-solid fa-paper-plane"></i>amanrmishra1201@gmail.com</p> 
+                     <p><i class="fa-solid fa-mobile"></i>+91-7869403405</p>
+                     <div class="social-icons">
+                        <a href="https://"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.linkedin.com/in/aman-mishra-b64777218/"><i class="fa-brands fa-linkedin"></i></a>
+
+                     </div>
+                     <a href="https://drive.google.com/file/d/1_Xso-e4IDFTIXQK-oKaKOEMDa4wHJPw4/view?usp=drive_link" download class ="btn btn2">Download My Resume</a>
+                </div>
+                
+            </div>    
+        </div>
+        <div class="copyright">
+                <p>Copyright © Aman. Made by Aman Mishra</p>
+        </div>
+</div>
+
+    
+
+<script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    
+</body>
+</html>
